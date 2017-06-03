@@ -1,0 +1,65 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+}
+
+.header {
+  font-size: 1rem;
+}
+
+.header img {
+  padding: 0 0.5rem;
+  height: 1.5rem;
+}
+
+.main-banner {
+  background-image: url("../images/moto.jpg")
+  background-size: cover;
+}
+
+.main-banner-block {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: black;
+}
+
+.main-banner-block h1 {
+    font-size: 2rem;
+}
+.menu {
+  background-color: firebrick;
+}
+
+.menu span {
+  padding: 0.75rem 0;
+}
+.product-grid {
+
+}
+
+.product-item {
+
+}
+
+.product img {
+
+}
+
+.product h3 {
+
+}
+
+/*Contains bottom-item*/
+.bottom-section {
+
+}
+
+/*Location and hours*/
+.bottom-item {
+
+}
+
+.footer {
+  width: 50%;
+  text-align: left;
+}
