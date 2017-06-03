@@ -153,5 +153,61 @@ padding: 2rem 0;
   #mobile-menu-item  {
     display: block;
     text-align: center;
+
+  }
+}
+
+
+@media only screen and (max-width: 470px) {
+  .pen {
+    display: block;
+        width: 90%;
+
+  }
+  .watch {
+    display: none;
+  }
+  .glasses {
+    display: none;
+  }
+  .bottom-section {
+    display: flex;
+    width: 90%;
+    padding-top: 3rem;
+
+    flex-direction: column;
+
+  }
+  .main-banner {
+    height: 15rem;
+  }
+
+  .main-banner-block {
+      font-size: 0.77rem;
+
+      width: auto;
+      padding: 2rem 3rem;
+      display:flex;
+      align-items: center;
+      flex-wrap: wrap;
+
+  }
+  .main-banner-block h1 {
+      font-size: 1rem;
+
+
+  }
+
+  .product-grid {
+
+    justify-content: center;
+  }
+  .bottom-section {
+
+    justify-content: center;
+  }
+
+  .bottom-item {
+    width: 90%;
   }
 }
