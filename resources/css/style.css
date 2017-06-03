@@ -134,3 +134,24 @@ padding: 2rem 0;
   padding-left: 5rem;
   margin-top: 4rem;
 }
+
+#mobile-menu-item  {
+  display:none;
+}
+
+/*Media query for smaller size screens*/
+@media only screen and (max-width: 1024px) {
+  .product-item {
+    width: 47%
+  }
+  .pen {
+    display:none;
+  }
+  .menu nav ul {
+    display: none;
+  }
+  #mobile-menu-item  {
+    display: block;
+    text-align: center;
+  }
+}
