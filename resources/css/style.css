@@ -1,38 +1,77 @@
 html {
   font-size: 18px;
   font-family: Helvetica, sans-serif;
+  color: white;
 }
 
+.company {
+    background-color: black;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
 .header {
   font-size: 1rem;
+  background-color: black;
+  padding: 0.66rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.header span {
+  padding-left: 1rem;
 }
 
 .header img {
-  padding: 0 0.5rem;
+  padding-left: 0.5rem;
   height: 1.5rem;
 }
 
 .main-banner {
-  background-image: url("../images/moto.jpg")
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+  height: 25rem;
 }
 
 .main-banner-block {
     font-size: 1rem;
     font-weight: bold;
     background-color: black;
+    width: 20rem;
+    padding: 2rem 3rem;
+    position: relative;
+    top: 9rem;
 }
 
 .main-banner-block h1 {
     font-size: 2rem;
-}
-.menu {
-  background-color: firebrick;
+    line-height: 1.2em;
+    margin: 0.25em 0;
+
 }
 
-.menu span {
-  padding: 0.75rem 0;
+.main-banner-block h4 {
+
+
 }
+
+.menu {
+  background-color: firebrick;
+
+  padding: 0.75rem 0;
+  list-style: none;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .product-grid {
 
 }
@@ -41,12 +80,15 @@ html {
 
 }
 
-.product img {
-
+.product-item img {
+  width: 30%;
+  border: 2px solid black;
+  max-height: 9rem;
+  width: auto;
 }
 
-.product h3 {
-
+.product-item h3 {
+  background-color: black;
 }
 
 /*Contains bottom-item*/
